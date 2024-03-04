@@ -5,6 +5,10 @@ branding:
   icon: 'server'
   color: 'purple'
 inputs:
+  gitlab-url:
+    description: 'GitLab Server URL'
+    required: false
+    default: 'https://gitlab.com/'
   registration-token:
     description: 'Registration token'
     required: true
